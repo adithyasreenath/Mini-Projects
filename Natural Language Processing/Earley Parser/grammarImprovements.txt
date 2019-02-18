@@ -1,0 +1,16 @@
+Look at the grammar. What changes to the grammar alone could improve the parsing (in particular, consider coordinated conjunctions)? Modify the grammar somewhat and evaluate the improvements. What new sentences may be parsed? What invalid sentences are now parsed (if any)?
+Solution:
+The changes in the grammar updated in the simple.gr and prob-simple.gr(with proper probabilities)by adding few rules and some conjuction .
+
+IMPROVEMENTS:
+(Added grammar)
+
+s -> np fcnj np
+np -> np fcnj np
+vbar -> faux pp
+fis -> fis fp
+fcnj -> and
+fcnj -> or
+
+Moreover,addition of more terminals in each category could improve the wide range of sentences that could be parsed.
+

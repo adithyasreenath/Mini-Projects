@@ -1,0 +1,3 @@
+opencv_createsamples -info positive.txt -w 50 -h 50 -vec pos-samples.vec
+
+opencv_traincascade -data smile_cascade -vec pos-samples.vec -bg negative.txt -npos 5 -nneg 10 -nstages 17 -nsplits 2 -nonsym -minhitrate 0.998 -maxfalsealarm 0.5 -mem 1024 -mode ALL -w 50 -h 50

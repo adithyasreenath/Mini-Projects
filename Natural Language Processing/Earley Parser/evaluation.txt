@@ -1,0 +1,37 @@
+
+By:
+Adithya Sreenath A20402135
+Nupur Bisht A20409318
+
+
+
+1.) What sorts of sentences can it parse?
+Ans:For parsing the provided grammar is used which contain rules.The sentences which can parse should contain words provided in the grammar(simple.gr).
+For example:
+Parsed sentences:
+does john live in chicago
+i live in chicago
+john steals watermelons in chicago
+
+planet earth drives to chicago 
+chicago steals 
+john planet gives
+is john live in chicago
+he steals watermelons from ten
+
+2.) What types of sentences will it fail to parse?
+Ans:Sentences that fail are whose words are not present in the grammar.
+If the sentence is grammatically incorrect. (to the rules specified)
+Failed sentences:
+john is on planet earth (Parsing failed!)
+john and i live in chicago (That sentence is not in the grammar.)
+this watermelon is from chicago (Parsing failed!)
+these ten jetcar is from john (Parsing failed!)
+i was in a jetcar (Parsing failed!)
+
+3.) What improvements to the grammar or parser are required to properly parse common failed sentences?
+Ans:The parse does not fail by adding new words to the grammar.
+Domain related words can be added to the grammar file with corresponding POS tags.
+By adding rules could to the grammar. 
+Also adding conjunctions like and, or.
+

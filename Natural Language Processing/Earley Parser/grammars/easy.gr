@@ -1,0 +1,64 @@
+0	ROOT	s
+0	s	np vp
+0	np	pn
+0	np	pn rel
+0	np	det nbar
+0	np	det np
+0	nbar	n
+0	nbar	n rel
+0	rel	wh vp
+0	vp	iv
+0	vp	tv np
+0	vp	dv np pp
+0	vp	sv s
+0	pp	p np
+0	pn	vincent
+0	pn	mia
+0	pn	marsellus
+0	pn	jules
+0	det	a
+0	det	the
+0	det	her
+0	det	his
+0	n	gun
+0	n	robber
+0	n	man
+0	n	woman
+0	wh	who
+0	wh	that
+0	p	to
+0	iv	died
+0	iv	fell
+0	tv	loved
+0	tv	shot
+0	tv	knew
+0	dv	gave
+0	dv	handed
+0	sv	knew
+0	sv	believed
+	S 	NP VP 
+	S  	X1 VP 
+	S  	schedule  
+	S	include  
+	S	prefer 
+	S  	Verb NP 
+	S  	VP PP 
+	X1 	Aux NP 1.0
+	NP -> 	I 0.09 | he 0.06 | she 0.06 | me 0.09
+	NP -> 	Chicago 0.1 | ORD 0.1
+	NP -> 	Det Nominal 0.5
+	Nominal schedule 0.08 | play 0.16 | meal 0.08 | money 0.08
+	Nominal Nominal Noun 0.3
+	Nominal Nominal PP 0.3
+	VP -> 	schedule 0.08 | include 0.02 | prefer 0.1
+	VP -> Verb NP 0.5
+	VP -> VP PP 0.3
+	PP -> Prep NP 1
+	Det -> the 0.5 | a 0.3 | that 0.1 | this 0.1
+	Noun -> schedule 0.2 | play 0.4 | meal 0.2 | money 0.2
+	Verb -> schedule 0.4 | include 0.1 | prefer 0.5
+	Prep -> from 0.2 | to 0.2 | in 0.3 | near 0.1 | through 0.2
+	Aux -> should 0.7 | must 0.3
+	Pronoun -> I 0.3 | he 0.2 | she 0.2 | me 0.3 
+	Proper Noun -> Chicago 0.5 | ORD 0.5
+
