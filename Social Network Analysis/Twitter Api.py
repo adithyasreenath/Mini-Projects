@@ -6,10 +6,10 @@ import sys
 import time
 from TwitterAPI import TwitterAPI
 
-consumer_key = 'pVc7F1FZLIrDrfRbZrJHsWVrH'
-consumer_secret = 'zct9DyIxU84HHpU5nQfcxeCwg1PRts7xt7fpBV6NvqOEeMiEkp'
-access_token = '918692050333196290-5khzCAyXT6WdpDqDaIk1qZpmnoKX9fY'
-access_token_secret = 'fHMgpXoOmmYBDfN9cxm4fm8I0KTOYbsufDKIb9Zmlst5K'
+consumer_key = '<consumer_key>'
+consumer_secret = '<consumer_secret>'
+access_token = '<access_token>'
+access_token_secret = '<access_token_secret>'
 
 def get_twitter():
     return TwitterAPI(consumer_key, consumer_secret, access_token, access_token_secret)
